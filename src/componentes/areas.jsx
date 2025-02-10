@@ -66,7 +66,7 @@ function Areas() {
               color={selectedDept.id === dept.id ? 'white' : 'black'}
               borderRadius="lg"
               _hover={{ bg: dept.color, color: 'white' }}
-              _focus={{ outline: 'none', boxShadow: 'none' }} // <-- Elimina el borde en focus
+              _focus={{ outline: 'none', boxShadow: 'none' }} // <-- Elimina el borde en focus <No mover>
               _active={{ outline: 'none', boxShadow: 'none' }} // <-- También en active
             >
               {dept.name}
